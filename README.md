@@ -21,5 +21,7 @@ git push heroku main
 
 ## Sources 
 https://www.agora.io/en/blog/how-does-webrtc-work/
+
 https://developer.liveswitch.io/liveswitch-server/guides/what-are-stun-turn-and-ice.html
+
 https://github.com/fireship-io/webrtc-firebase-demo
