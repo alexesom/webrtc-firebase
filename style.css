@@ -1,0 +1,74 @@
+body {
+  font-family: 'Syne Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin: 80px 10px;
+}
+
+video {
+  width: 40vw;
+  height: 30vw;
+  margin: 2rem;
+  background: #2c3e50;
+}
+
+.videos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  video {
+    width: 60vw;
+    height: 45vw;
+    margin: 2rem;
+    background: #2c3e50;
+  }
+  .videos {
+    flex-direction: column;
+  }
+  .wrapper {
+    margin: 0 10px !important;
+  }
+}
+
+.copiedSuccessState {
+  color: springgreen;
+  -webkit-text-stroke: 0.3px black;
+  visibility: hidden;
+}
+
+.joinCall {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-grow: 1;
+}
+
+#callInput {
+  width: 20rem;
+  padding: 0.26rem;
+}
+
+.wrapper {
+  margin: 0 20vw;
+}
+
+.generalWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.createCall {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
